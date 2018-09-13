@@ -1,0 +1,42 @@
+<html>
+<body class="text-center">
+
+        <!-- Header -->
+        <br><br>
+        <div class="page-header text-center itema-header">
+            W a l l &nbsp; O f &nbsp; F a m e
+        </div>
+        <br><br>
+
+        <!-- Main Content -->
+        <div class="align-center text-center" style="width: 100%; margin: 0 auto">
+            
+            <!-- Photo Grid -->
+            <div 
+                class="row text-center left" 
+                [style.width]="containerWidthLeft" 
+                [style.margin-left]="marginTxt">
+                
+                <app-employee 
+                    [employee]="employee"
+                    [width]="imgWidth"
+                    [height]="divHeight"
+                    [style.margin]="marginTxt"
+                    [wave]="employee.wave"
+                    *ngFor="let employee of employees">
+                </app-employee>
+
+            </div>
+
+            <!-- Employee Detail -->
+            <div class="right"
+            [style.width]="containerWidthRight"
+            [style.margin-top]="marginTxt"
+            [style.margin-right]="marginTxt">
+                <app-employee-detail [employee]="selectedEmployee" [height]="height"></app-employee-detail>
+            </div>
+        </div>
+
+</body>
+</html>
+

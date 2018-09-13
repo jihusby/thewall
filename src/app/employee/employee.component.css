@@ -1,0 +1,56 @@
+.employee-component {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+ }
+
+.inner-component {
+    position: absolute;
+    width: 100%;
+    bottom: -18px;
+    color: white;
+    background-color: black;
+    opacity: 0.5;
+    font-size: smaller;
+    z-index: 1000;
+} 
+
+.birthday {
+    position: absolute;
+    display: block;
+    background-size: cover;
+    /* background-color: lightcoral; */
+    -webkit-animation: fadeinout 5s linear forwards;
+    animation: fadeinout 5s linear forwards;
+    opacity: 0;
+}
+
+.invisible {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+}
+
+.visible {
+    display: block;
+    background-color: red;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-animation: fadeinout 4s linear forwards;
+    animation: fadeinout 4s linear forwards;
+    opacity: 0;
+}
+
+@keyframes fadeinout {
+    0%,100% { opacity: 0 }
+    30% { opacity: 1 }
+    70% { opacity: 1 }
+}
+
+.hidden {
+    visibility: hidden;
+    display: none;
+}
+

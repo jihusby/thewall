@@ -1,0 +1,49 @@
+{
+  "name": "employee",
+  "plural": "employees",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "firstName": {
+      "type": "string",
+      "required": true
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "stdImage": {
+      "type": "string",
+      "required": true
+    },
+    "extraImage1": {
+      "type": "string",
+      "required": true
+    },
+    "extraImage2": {
+      "type": "string"
+    },
+    "birthday": {
+      "type": "string"
+    },
+    "startDate": {
+      "type": "string"
+    },
+    "extraDate1": {
+      "type": "string"
+    },
+    "extraDate2": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
