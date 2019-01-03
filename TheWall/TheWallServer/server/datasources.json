@@ -1,0 +1,12 @@
+{
+  "wall": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "thewall",
+    "password": "",
+    "name": "wall",
+    "user": "",
+    "connector": "mongodb"
+  }
+}

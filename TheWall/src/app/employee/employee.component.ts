@@ -38,7 +38,9 @@ export class EmployeeComponent implements OnInit {
   }
 
   getImagePath() {
-    return this.imageSrc + this.employee.stdImage + '")';
+    //console.log(this.imageSrc + this.employee.image1 + '")');
+    console.log('image: ' + this.imageSrc + this.employee.firstName + ".jpg");
+    return this.imageSrc + this.employee.firstName + ".jpg";
   }
 
 }

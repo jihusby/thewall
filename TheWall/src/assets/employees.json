@@ -1,0 +1,246 @@
+                
+[
+	{
+  "employeeID": 1,
+  "firstName": "Albrikt",
+  "lastName": "Lyngsnes",
+  "birthday": "1967-07-27T00:00:00",
+  "startDate": "2000-01-03T00:00:00",
+  "description": "25 års erfaring fra IT-bransjen. Mesteparten av erfaringen er ervervet fra Statoil i forskjellige prosjekter og forskjellige roller, systemansvarlig, utvikler og Scrum Master. Sterk bransjefaglig kompetanse fra olje/gass bransjen. Er spesialist og har dybdekompetanse fra systemer knyttet til oljehandel."
+},
+{
+  "employeeID": 2,
+  "firstName": "Arve",
+  "lastName": "Moen",
+  "birthday": "1961-07-27T00:00:00",
+  "startDate": "2000-01-03T00:00:00",
+  "description": "Gift. Har golf-bag, MC-hjelm, fjellsko, kamera, hestehenger og øl-glass. "
+},
+{
+  "employeeID": 3,
+  "firstName": "Frank",
+  "lastName": "Jørgensen",
+  "birthday": "1971-07-27T00:00:00",
+  "startDate": "2000-01-03T00:00:00",
+  "description": "Personlig info"
+},
+{
+  "employeeID": 4,
+  "firstName": "Johan Arnt",
+  "lastName": "Markussen",
+  "birthday": "1969-07-27T00:00:00",
+  "startDate": "2000-01-03T00:00:00",
+  "description": "Gift, 2 barn. Interesser: Idrett, golf, fjell og fiske. Tidligere spilt fotball for Rosenborg U- og juniorlag. Har også spilt squash på høyt nivå i Trondheim. "
+},
+{
+  "employeeID": 5,
+  "firstName": "Jan Inge",
+  "lastName": "Husby",
+  "birthday": "1972-07-27T00:00:00",
+  "startDate": "2007-01-03T00:00:00",
+  "description": "Samboer, 3 voksne barn. Glad i musikk og spiller gitar i band. Fotointeressert med øye for detaljer. Trener regelmessig. Liker å lære nye og spennende ting og er glad i TEDTalks."
+},
+{
+  "employeeID": 6,
+  "firstName": "Lone",
+  "lastName": "Madsen",
+  "birthday": "1968-07-27T00:00:00",
+  "startDate": "2009-01-03T00:00:00",
+  "description": "Personlig info"
+},
+{
+  "employeeID": 7,
+  "firstName": "Robert",
+  "lastName": "Heggdal",
+  "birthday": "1968-07-27T00:00:00",
+  "startDate": "2009-01-03T00:00:00",
+  "description": "Gift, har 2 barn. Interesser: Musikk, spiller bass, gitar og trommer. Glad i å lage spennende mat. Tidligere konkurransesvømmer og drevet mye med sykling og telemark. "
+},
+{
+  "employeeID": 8,
+  "firstName": "Tore",
+  "lastName": "Olsen",
+  "birthday": "1968-07-27T00:00:00",
+  "startDate": "2009-01-03T00:00:00",
+  "description": "Samboer, to barn. Interesser: Nye gadgets, maskinlæring, motorsykler og foto."
+},
+{
+  "employeeID": 9,
+  "firstName": "Bjørn",
+  "lastName": "Karlsen",
+  "birthday": "1968-07-27T00:00:00",
+  "startDate": "2009-01-03T00:00:00",
+  "description": "Bjørn er samboer med Reynalyn og sammen har de ei lita datter. Født i Bodø, men har bodd i Trondheim siden 1998. Glad i fysisk aktivitet. Spiller golf og dykker. Liker å lese, både krim og fagbøker om it."
+},
+{
+  "employeeID": 10,
+  "firstName": "Torkild",
+  "lastName": "Resheim",
+  "birthday": "1968-07-27T00:00:00",
+  "startDate": "2009-01-03T00:00:00",
+  "description": "Gift, har fire sønner. Er interessert i teknologi, historie og ellers det aller meste."
+},
+{
+  "employeeID": 11,
+  "firstName": "Morten",
+  "lastName": "Moen",
+  "birthday": "1968-07-27T00:00:00",
+  "startDate": "2009-01-03T00:00:00",
+  "description": "Gift, 3 barn. Interesser: Elsker å organisere og har derfor alltid et eller annet prosjekt på gang: turer med familie/venner, oppussing/utbygging eller gjenforeningsfester med gamle kjente. Tilbringer flest mulig helger på hytta på Oppdal, som er en super base for aktiviteter på snowboard eller terrengsykkel. Ellers glad i å reise og Italia er klar favorittdestinasjon."
+},
+
+{
+  "employeeID": 12,
+  "firstName": "Bengt",
+  "lastName": "Bendixsen",
+  "birthday": "1968-07-27T00:00:00",
+  "startDate": "2009-01-03T00:00:00",
+  "description": "Personling info"
+},
+
+{
+  "employeeID": 13,
+  "firstName": "Anita",
+  "lastName": "Skylstad",
+  "birthday": "1968-07-27T00:00:00",
+  "startDate": "2009-01-03T00:00:00",
+  "description": "I en hektisk familiehverdag med mann, tre barn og hund er Anita alltid aktiv med noe. Hun engasjerer seg gjerne i frivillige verv og tar seg ofte joggeturer i skog og mark. I sofaen er det som regel tv-serier og strikking som tar opp tiden."
+},
+
+{
+  "employeeID": 14,
+  "firstName": "Eirik",
+  "lastName": "Wahl",
+  "birthday": "1968-07-27T00:00:00",
+  "startDate": "2009-01-03T00:00:00",
+  "description": "Gift, 2 barn. Har sammen med kona funnet det flotteste huset på Melhus, som de ønsker å bo i til de blir for gamle til å gå trapper. :-) Sykler både på offroad- og racersykkel. Prøver å få med familien på kanotur litt oftere. Eirik er utadvendt, og trives foran forsamlinger."
+},
+
+{
+  "employeeID": 15,
+  "firstName": "Torstein",
+  "lastName": "Bjørgan",
+  "birthday": "1968-07-27T00:00:00",
+  "startDate": "2009-01-03T00:00:00",
+  "description": "Torstein er interessert i musikk, og drar ofte på konsert til utlandet for å få med seg gode band. Han liker godt å reise og har London som favorittdestinasjon. På fritiden sysler han med flere hobbyprosjekter, sykler og deltar på treningsaktiviteter med kolleger."
+},
+
+{
+  "employeeID": 16,
+  "firstName": "Arnstein",
+  "lastName": "Johansen",
+  "birthday": "1968-07-27T00:00:00",
+  "startDate": "2009-01-03T00:00:00",
+  "description": "Interesser: Er aktiv på fritiden og liker å holde meg i form. Tilbringer mye tid på treningsstudio, sykkelsetet eller ute på tur med hunden. Engasjert innen .net miljøet og har alltid et hobbyprosjekt på gang."
+},
+
+{
+  "employeeID": 17,
+  "firstName": "Eivind",
+  "lastName": "Wahl",
+  "birthday": "1968-07-27T00:00:00",
+  "startDate": "2009-01-03T00:00:00",
+  "description": "Gift, 3 barn. Seiler og kjører motorsykkel i sommerhalvåret, snowboard om vinteren. Glad i friluftsliv, leser mye, både faglitteratur og bøker. Ivrig hobbyfotograf og –kokk."
+},
+
+{
+  "employeeID": 18,
+  "firstName": "Sonja",
+  "lastName": "Askim",
+  "birthday": "1968-07-27T00:00:00",
+  "startDate": "2009-01-03T00:00:00",
+  "description": "Er gift og har 2 barn. Liker å holde meg i form og har fotball og løping som favorittaktiviteter. Er en blid og positiv person som alltid søker ny lærdom og utfordringer. Har som regel et hobbyprosjekt på gang."
+},
+
+	{
+  "employeeID": 19,
+  "firstName": "Lars",
+  "lastName": "Eidnes",
+  "birthday": "1968-07-27T00:00:00",
+  "startDate": "2009-01-03T00:00:00",
+  "description": "Ihuga teknologientusiast. Er ellers glad i å stå på brett om vinteren, om det er i et skianlegg eller på vei ned fra en topptur. Liker å lage ting, og har typisk opptil flere hobbyprosjekter på gang til en hver tid.  "
+},
+
+{
+  "employeeID": 19,
+  "firstName": "Gøran",
+  "lastName": "Henriksen",
+  "birthday": "1968-07-27T00:00:00",
+  "startDate": "2009-01-03T00:00:00",
+  "description": "Gift, opprinnelig fra Bodø, men har bodd i Trondheim de siste 18 årene.  Driver med skateboard og snowboard. Er aktiv og sosial.  Liker å dra på konserter og festivaler. Leser mye, alt fra historie, fantasy og sci fi til de store klassikerne. Trives godt foran skjermen med spill eller å leke meg et eller annet sideprosjekt."
+},
+
+{
+  "employeeID": 20,
+  "firstName": "Vegard",
+  "lastName": "Løkken",
+  "birthday": "1968-07-27T00:00:00",
+  "startDate": "2009-01-03T00:00:00",
+  "description": "Er gift og har 2 barn. Fikk tidlig interesse for datamaskiner og har alltid likt å utforske og lære. Det som startet med nettverk og servere gikk over til programvare og systemutvikling. Liker å trene, gå på jakt, kjøre motorsykkel og spille gitar. Er en blid og omgjengelig person med en allsidig bakgrunn som stadig er på jakt etter å lære mer og bli enda bedre i faget."
+},
+{
+  "employeeID": 21,
+  "firstName": "Øystein",
+  "lastName": "Steimler",
+  "birthday": "1968-07-27T00:00:00",
+  "startDate": "2009-01-03T00:00:00",
+  "description": "Gift, 2 barn. Interesser: Datamaskiner, elektronikk, musikk og friluft. Drifter web- og dataløsninger for mange. Er profesjonelt paranoid og morer seg med kryptografi på internett. Sender epost med PGP-signatur. Har hatt IPv6 hjemme siden 2010, liker å leke med Arduino og servoer. Sporer fly med egen antenne på taket og har retrogaming i stuen. Lydtekniker og bålbrenner."
+},
+{
+  "employeeID": 22,
+  "firstName": "Trond",
+  "lastName": "Bordewich",
+  "birthday": "1968-07-27T00:00:00",
+  "startDate": "2009-01-03T00:00:00",
+  "description": "36 år gammel, bosatt i Trondheim med familien som består av kone og to døtre. På fritiden prioriteres familien, med det blir også tid til trening innimellom. Klatring/buldring, løping, sykling, skiturer og fjellturer. Han har vært pådriver for løpegrupper. Trond er leder for CocoaHeads Trondheim, hvor han setter opp foredrag, hackfests eller andre aktiviteter. Han har holdt flere foredrag i regi av CocoaHeads, og et foredrag om funksjonell programmering på TDC2015."
+},
+{
+  "employeeID": 23,
+  "firstName": "John",
+  "lastName": "Fossum",
+  "birthday": "1968-07-27T00:00:00",
+  "startDate": "2009-01-03T00:00:00",
+  "description": "Samboer og to barn. Liker å være aktiv med triatlon, skikjøring og toppturer (telemark), langrenn, klatring, fjellturer og sosiale aktiviteter. Har som regel noen småprosjekter på gang."
+},
+{
+  "employeeID": 24,
+  "firstName": "Torleif",
+  "lastName": "Sandnes",
+  "birthday": "1968-07-27T00:00:00",
+  "startDate": "2009-01-03T00:00:00",
+  "description": "Familiemann med tre barn og for mange fritidsinteresser. Etter leggetid går tiden med til løping, ski og yoga, utforskende programmering og lesing. Interessert i åpen programvare, kodekvalitet, litteratur, tv-serier, science fiction og musikk. "
+},
+{
+  "employeeID": 25,
+  "firstName": "Erik",
+  "lastName": "Svaleng",
+  "birthday": "1968-07-27T00:00:00",
+  "startDate": "2009-01-03T00:00:00",
+  "description": "Erik er en allsidig, omgjengelig og sosialt trygg kar fra Bodø. Han har samboer fra Steinkjer, og sammen har de tre barn. De har vært bosatt i Trondheim siden 2008. Erik drev med SW-utvikling på si i hele studietiden. Han hadde deltidsjobber både hos SINTEF Energi og Siemens mens han studerte. I tillegg har han allsidig arbeidserfaring fra diverse småjobber, bl.a. fra flyttebyrå, som vekter, butikkmedarbeider og tømrer. Erik har god kjennskap til flere programmeringsspråk og programmer, både gjennom studier yrkeserfaring og egne interesser. "
+},
+{
+  "employeeID": 26,
+  "firstName": "Andreas",
+  "lastName": "Langberg",
+  "birthday": "1968-07-27T00:00:00",
+  "startDate": "2009-01-03T00:00:00",
+  "description": "Andreas er en sosial ung mann fra Støren med interesser innen data, spillutvikling, IT sikkerhet, buldring, kokkelering, drone racing, og 3D modellering. Han studerte først elektro, men byttet etter noen år over til IT fordi han hadde større interesse for systemutvikling. Som student var han leder for studentutvalg, studentmedlem i avdelingsstyret og i avdelingens tilsetningsutvalg ved AFT, HiST. Andreas brenner for kompetansedeling, han er lærevillig og lærer gjerne bort.  "
+},
+{
+  "employeeID": 27,
+  "firstName": "Dan-Lewi",
+  "lastName": "Harkestad",
+  "birthday": "1968-07-27T00:00:00",
+  "startDate": "2009-01-03T00:00:00",
+  "description": "Dan Lewi er gift og har 4 barn. Når barna er lagt er han ofte å finne foran en skjerm. Der redder han galaksen eller utforsker ny teknologi, noe han har holdt på med siden han fikk sin første datamaskin tidlig på 80-tallet. Han leser mye, både faglitteratur og science fiction, synger og spiller gitar og trener Taekwon-Do."
+},
+{
+  "employeeID": 28,
+  "firstName": "Erling",
+  "lastName": "Neset",
+  "birthday": "1968-07-27T00:00:00",
+  "startDate": "2009-01-03T00:00:00",
+  "description": "Erling er en ung og dyktig fullstack-utvikler. Han er en utadvendt og sosial kar, og under utdanningen var han både leder og nestleder i linjeforeningen TIHLDE. Hos en tidligere arbeidsgiver satt han i sosialkomiteen. Av interesser kan nevnes randonee, windsurfing, friluftsliv, data, 3Dprinting, Arduino og hobbymekanikk."
+}
+	
+]

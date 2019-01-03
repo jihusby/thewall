@@ -1,0 +1,34 @@
+{
+  "name": "Assignment",
+  "plural": "Assignments",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "assignmentID": {
+      "type": "number",
+      "required": true
+    },
+    "employeeID": {
+      "type": "number",
+      "required": true
+    },
+    "company": {
+      "type": "string",
+      "required": true
+    },
+    "dateStarted": {
+      "type": "string",
+      "required": true
+    },
+    "typeID": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

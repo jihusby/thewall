@@ -1,7 +1,7 @@
 
  <div [style.width]="width" 
       [style.height]="height" 
-      [style.background-image]="'url(./assets/images/' + employee.stdImage + ')'" 
+      [style.background-image]="'url(./assets/images/' + employee.firstName.replace(' ', '') + '.jpg)'" 
       class="employee-component">
       <div 
         class="inner-component">

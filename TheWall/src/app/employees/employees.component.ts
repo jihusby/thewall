@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { EmployeeService } from '../service/employee.service';
 import { Employee } from '../model/employee.model';
+import { Assignment } from '../model/assignment.model';
 
 @Component({
   selector: 'app-employees',
@@ -10,12 +11,15 @@ import { Employee } from '../model/employee.model';
 export class EmployeesComponent implements OnInit {
 
   employeesUpdated;
-
+  index: number = 0;
   title = 'WallOfFame';
 
   employees: Employee[];
 
   selectedEmployee: Employee;
+  selectedAssignments: Assignment[];
+  commentsQueue: Assignment[];
+  selectedAssignment: Assignment;
 
   marginTxt: string = '0px';
 
@@ -30,10 +34,10 @@ export class EmployeesComponent implements OnInit {
   width: number = 1680;
   height: number = 1050;
   noOfEmployees: number;
-  margin: number = 15;
-  cols: number = 8;
+  margin: number = 10;
+  cols: number = 7;
   rows: number;
-  detailArea: number = 0.2;
+  detailArea: number = 0.3;
 
   // Big screen
 /*   width: number = 1920;
@@ -47,65 +51,65 @@ export class EmployeesComponent implements OnInit {
   
   intervalCounter; 
   employeeIndex: number = 0;
+  commentIndex: number = 0;
 
   constructor(private employeeService: EmployeeService) {
-    this.employees = this.employeeService.getEmployees();
+    
+    
   }
   
   ngOnInit() {
+
     this.employeesUpdated = this.employeeService.employeeListUpdated.subscribe((employees: Employee[]) => {
+
       this.employees = this.employeeService.getEmployees();
-      console.log('updated');
+      this.commentsQueue = this.employeeService.getAllAssignments();
+
+      this.containerWidthRight = Math.round((this.width) * (this.detailArea)) + 'px';
+      this.width = this.width * (1-this.detailArea);
+      
+      this.noOfEmployees = this.employees.length;
+      this.rows = Math.round(this.noOfEmployees / this.cols);
+  
+      var totalMarginWidth = 
+          (this.margin * (2*this.cols)) + // Two margins per image
+          (2 * this.margin);  // One margin extra on each side
+  
+      var imgWidth = (this.width-totalMarginWidth) / this.cols;
+  
+      this.imgWidth = (imgWidth) + 'px';
+      this.divHeight = (imgWidth + 18) + 'px';
+      var width = (
+        (imgWidth*(this.cols)-20) + 
+        (this.cols*this.margin));
+      this.containerWidth = Math.round(width) + 'px';
+      
+      this.containerWidthLeft = this.containerWidth;
+  
+      this.marginTxt = this.margin + 'px';
+  
+      this.selectedEmployee = this.employees[0];
+      this.changeEmployee();
+  
     });
-
     
-
-    this.containerWidthRight = Math.round((this.width) * (this.detailArea)) + 'px';
-    this.width = this.width * (1-this.detailArea);
-    console.log('right:' + this.containerWidthRight);
-    
-    this.noOfEmployees = this.employees.length;
-    this.rows = Math.round(this.noOfEmployees / this.cols);
-
-    var totalMarginWidth = 
-        (this.margin * (2*this.cols)) + // Two margins per image
-        (2 * this.margin);  // One margin extra on each side
-
-    var imgWidth = (this.width-totalMarginWidth) / this.cols;
-
-    this.imgWidth = (imgWidth) + 'px';
-    this.divHeight = (imgWidth + 18) + 'px';
-    var width = (
-      (imgWidth*(this.cols)-20) + 
-      (this.cols*this.margin));
-    this.containerWidth = Math.round(width) + 'px';
-    
-    this.containerWidthLeft = this.containerWidth;
-    console.log('left:' + this.containerWidthLeft);
-
-    this.marginTxt = this.margin + 'px';
-
-    this.selectedEmployee = this.employees[0];
-    this.startTimer();
   }
 
-  startTimer() {
+  changeEmployee() {
     this.intervalCounter = setInterval(() => {
-      setTimeout(() => {
-
-        this.employeeIndex = Math.floor(Math.random() * 27) + 0;
-
-        this.employeeService.enterWave(this.employees[this.employeeIndex]);
-        this.selectedEmployee = this.employees[this.employeeIndex];
-        this.employeeIndex++;
-        //if(this.employeeIndex == this.noOfEmployees) {
-        //  this.employeeIndex = 0;
-        //}
-      }, 8000)
+      this.selectedEmployee = this.employees[this.employeeIndex];
+      var sel = this.employeeService.getAssignments(this.selectedEmployee.employeeID);
+      if(sel.length > 0) {
+        this.selectedAssignment = sel[0];
+      }else {
+        this.selectedAssignment = null;
+      }
       
-      this.employeeService.exitWave(this.employees[this.employeeIndex]);
-
-    }, 2000);
+      this.employeeIndex++;
+      if(this.employeeIndex == this.employees.length) this.employeeIndex = 0;
+      }, 15000);
+      
+      this.index = this.index + 1;
   }
 
   ngOnDestroy() {

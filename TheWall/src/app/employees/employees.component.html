@@ -1,13 +1,11 @@
 <html>
-<body class="text-center">
+<body class="">
 
         <!-- Header -->
         <br><br>
-        <div class="page-header text-center itema-header">
-            W a l l &nbsp; O f &nbsp; F a m e
+        <div class="itema-header">
+            Wall Of Fame
         </div>
-        <br><br>
-
         <!-- Main Content -->
         <div class="align-center text-center" style="width: 100%; margin: 0 auto">
             
@@ -22,7 +20,7 @@
                     [width]="imgWidth"
                     [height]="divHeight"
                     [style.margin]="marginTxt"
-                    [wave]="employee.wave"
+                    [wave]=""
                     *ngFor="let employee of employees">
                 </app-employee>
 
@@ -33,7 +31,7 @@
             [style.width]="containerWidthRight"
             [style.margin-top]="marginTxt"
             [style.margin-right]="marginTxt">
-                <app-employee-detail [employee]="selectedEmployee" [height]="height"></app-employee-detail>
+                <app-employee-detail [employee]="selectedEmployee" [selectedAssignment]="selectedAssignment" [height]="height"></app-employee-detail>
             </div>
         </div>
 

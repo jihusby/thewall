@@ -1,19 +1,23 @@
 .employee-component {
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     position: relative;
     z-index: 1;
+    border: 1px solid gray;
+    
  }
 
 .inner-component {
     position: absolute;
     width: 100%;
-    bottom: -18px;
+    max-height: 18px;
+    bottom: 0px;
     color: white;
     background-color: black;
     opacity: 0.5;
     font-size: smaller;
     z-index: 1000;
+    border: 1px solid black;
 } 
 
 .birthday {

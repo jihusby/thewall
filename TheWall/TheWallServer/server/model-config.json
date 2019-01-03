@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "wall"
+  },
+  "AccessToken": {
+    "dataSource": "wall",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "wall",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "wall",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "wall",
+    "public": false
+  },
+  "Assignment": {
+    "dataSource": "wall",
+    "public": true
+  },
+  "Employee": {
+    "dataSource": "wall",
+    "public": true
+  }
+}
