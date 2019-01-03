@@ -1,0 +1,180 @@
+{
+	"_type": "export",
+	"__export_format": 3,
+	"__export_date": "2019-01-03T20:13:44.436Z",
+	"__export_source": "insomnia.desktop.app:v6.2.3",
+	"resources": [
+		{
+			"_id": "wrk_777a832a14af480e99f4140ecd94ee54",
+			"created": 1537217533069,
+			"description": "",
+			"modified": 1537217533069,
+			"name": "TheWall",
+			"parentId": null,
+			"_type": "workspace"
+		},
+		{
+			"_id": "env_53a05bc8c5bc4156a594d02c632555c2",
+			"color": null,
+			"created": 1537217533152,
+			"data": {},
+			"isPrivate": false,
+			"metaSortKey": 1537217533153,
+			"modified": 1537217533152,
+			"name": "New Environment",
+			"parentId": "wrk_777a832a14af480e99f4140ecd94ee54",
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_c552b846c7c04997ab6448c67960ca38",
+			"cookies": [],
+			"created": 1537217533155,
+			"modified": 1537217533155,
+			"name": "Default Jar",
+			"parentId": "wrk_777a832a14af480e99f4140ecd94ee54",
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "req_e98875b6a10d4ecf9255252cd76f7a21",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "                \n[\n\t{\n  \"employeeID\": 1,\n  \"firstName\": \"Albrikt\",\n  \"lastName\": \"Lyngsnes\",\n  \"birthday\": \"1967-07-27T00:00:00\",\n  \"startDate\": \"2000-01-03T00:00:00\",\n  \"description\": \"25 års erfaring fra IT-bransjen. Mesteparten av erfaringen er ervervet fra Statoil i forskjellige prosjekter og forskjellige roller, systemansvarlig, utvikler og Scrum Master. Sterk bransjefaglig kompetanse fra olje/gass bransjen. Er spesialist og har dybdekompetanse fra systemer knyttet til oljehandel.\"\n},\n{\n  \"employeeID\": 2,\n  \"firstName\": \"Arve\",\n  \"lastName\": \"Moen\",\n  \"birthday\": \"1961-07-27T00:00:00\",\n  \"startDate\": \"2000-01-03T00:00:00\",\n  \"description\": \"Gift. Har golf-bag, MC-hjelm, fjellsko, kamera, hestehenger og øl-glass. \"\n},\n{\n  \"employeeID\": 3,\n  \"firstName\": \"Frank\",\n  \"lastName\": \"Jørgensen\",\n  \"birthday\": \"1971-07-27T00:00:00\",\n  \"startDate\": \"2000-01-03T00:00:00\",\n  \"description\": \"Personlig info\"\n},\n{\n  \"employeeID\": 4,\n  \"firstName\": \"Johan Arnt\",\n  \"lastName\": \"Markussen\",\n  \"birthday\": \"1969-07-27T00:00:00\",\n  \"startDate\": \"2000-01-03T00:00:00\",\n  \"description\": \"Gift, 2 barn. Interesser: Idrett, golf, fjell og fiske. Tidligere spilt fotball for Rosenborg U- og juniorlag. Har også spilt squash på høyt nivå i Trondheim. \"\n},\n{\n  \"employeeID\": 5,\n  \"firstName\": \"Jan Inge\",\n  \"lastName\": \"Husby\",\n  \"birthday\": \"1972-07-27T00:00:00\",\n  \"startDate\": \"2007-01-03T00:00:00\",\n  \"description\": \"Samboer, 3 voksne barn. Glad i musikk og spiller gitar i band. Fotointeressert med øye for detaljer. Trener regelmessig. Liker å lære nye og spennende ting og er glad i TEDTalks.\"\n},\n{\n  \"employeeID\": 6,\n  \"firstName\": \"Lone\",\n  \"lastName\": \"Madsen\",\n  \"birthday\": \"1968-07-27T00:00:00\",\n  \"startDate\": \"2009-01-03T00:00:00\",\n  \"description\": \"Personlig info\"\n},\n{\n  \"employeeID\": 7,\n  \"firstName\": \"Robert\",\n  \"lastName\": \"Heggdal\",\n  \"birthday\": \"1968-07-27T00:00:00\",\n  \"startDate\": \"2009-01-03T00:00:00\",\n  \"description\": \"Gift, har 2 barn. Interesser: Musikk, spiller bass, gitar og trommer. Glad i å lage spennende mat. Tidligere konkurransesvømmer og drevet mye med sykling og telemark. \"\n},\n{\n  \"employeeID\": 8,\n  \"firstName\": \"Tore\",\n  \"lastName\": \"Olsen\",\n  \"birthday\": \"1968-07-27T00:00:00\",\n  \"startDate\": \"2009-01-03T00:00:00\",\n  \"description\": \"Samboer, to barn. Interesser: Nye gadgets, maskinlæring, motorsykler og foto.\"\n},\n{\n  \"employeeID\": 9,\n  \"firstName\": \"Bjørn\",\n  \"lastName\": \"Karlsen\",\n  \"birthday\": \"1968-07-27T00:00:00\",\n  \"startDate\": \"2009-01-03T00:00:00\",\n  \"description\": \"Bjørn er samboer med Reynalyn og sammen har de ei lita datter. Født i Bodø, men har bodd i Trondheim siden 1998. Glad i fysisk aktivitet. Spiller golf og dykker. Liker å lese, både krim og fagbøker om it.\"\n},\n{\n  \"employeeID\": 10,\n  \"firstName\": \"Torkild\",\n  \"lastName\": \"Resheim\",\n  \"birthday\": \"1968-07-27T00:00:00\",\n  \"startDate\": \"2009-01-03T00:00:00\",\n  \"description\": \"Gift, har fire sønner. Er interessert i teknologi, historie og ellers det aller meste.\"\n},\n{\n  \"employeeID\": 11,\n  \"firstName\": \"Morten\",\n  \"lastName\": \"Moen\",\n  \"birthday\": \"1968-07-27T00:00:00\",\n  \"startDate\": \"2009-01-03T00:00:00\",\n  \"description\": \"Gift, 3 barn. Interesser: Elsker å organisere og har derfor alltid et eller annet prosjekt på gang: turer med familie/venner, oppussing/utbygging eller gjenforeningsfester med gamle kjente. Tilbringer flest mulig helger på hytta på Oppdal, som er en super base for aktiviteter på snowboard eller terrengsykkel. Ellers glad i å reise og Italia er klar favorittdestinasjon.\"\n},\n\n{\n  \"employeeID\": 12,\n  \"firstName\": \"Bengt\",\n  \"lastName\": \"Bendixsen\",\n  \"birthday\": \"1968-07-27T00:00:00\",\n  \"startDate\": \"2009-01-03T00:00:00\",\n  \"description\": \"Personling info\"\n},\n\n{\n  \"employeeID\": 13,\n  \"firstName\": \"Anita\",\n  \"lastName\": \"Skylstad\",\n  \"birthday\": \"1968-07-27T00:00:00\",\n  \"startDate\": \"2009-01-03T00:00:00\",\n  \"description\": \"I en hektisk familiehverdag med mann, tre barn og hund er Anita alltid aktiv med noe. Hun engasjerer seg gjerne i frivillige verv og tar seg ofte joggeturer i skog og mark. I sofaen er det som regel tv-serier og strikking som tar opp tiden.\"\n},\n\n{\n  \"employeeID\": 14,\n  \"firstName\": \"Eirik\",\n  \"lastName\": \"Wahl\",\n  \"birthday\": \"1968-07-27T00:00:00\",\n  \"startDate\": \"2009-01-03T00:00:00\",\n  \"description\": \"Gift, 2 barn. Har sammen med kona funnet det flotteste huset på Melhus, som de ønsker å bo i til de blir for gamle til å gå trapper. :-) Sykler både på offroad- og racersykkel. Prøver å få med familien på kanotur litt oftere. Eirik er utadvendt, og trives foran forsamlinger.\"\n},\n\n{\n  \"employeeID\": 15,\n  \"firstName\": \"Torstein\",\n  \"lastName\": \"Bjørgan\",\n  \"birthday\": \"1968-07-27T00:00:00\",\n  \"startDate\": \"2009-01-03T00:00:00\",\n  \"description\": \"Torstein er interessert i musikk, og drar ofte på konsert til utlandet for å få med seg gode band. Han liker godt å reise og har London som favorittdestinasjon. På fritiden sysler han med flere hobbyprosjekter, sykler og deltar på treningsaktiviteter med kolleger.\"\n},\n\n{\n  \"employeeID\": 16,\n  \"firstName\": \"Arnstein\",\n  \"lastName\": \"Johansen\",\n  \"birthday\": \"1968-07-27T00:00:00\",\n  \"startDate\": \"2009-01-03T00:00:00\",\n  \"description\": \"Interesser: Er aktiv på fritiden og liker å holde meg i form. Tilbringer mye tid på treningsstudio, sykkelsetet eller ute på tur med hunden. Engasjert innen .net miljøet og har alltid et hobbyprosjekt på gang.\"\n},\n\n{\n  \"employeeID\": 17,\n  \"firstName\": \"Eivind\",\n  \"lastName\": \"Wahl\",\n  \"birthday\": \"1968-07-27T00:00:00\",\n  \"startDate\": \"2009-01-03T00:00:00\",\n  \"description\": \"Gift, 3 barn. Seiler og kjører motorsykkel i sommerhalvåret, snowboard om vinteren. Glad i friluftsliv, leser mye, både faglitteratur og bøker. Ivrig hobbyfotograf og –kokk.\"\n},\n\n{\n  \"employeeID\": 18,\n  \"firstName\": \"Sonja\",\n  \"lastName\": \"Askim\",\n  \"birthday\": \"1968-07-27T00:00:00\",\n  \"startDate\": \"2009-01-03T00:00:00\",\n  \"description\": \"Er gift og har 2 barn. Liker å holde meg i form og har fotball og løping som favorittaktiviteter. Er en blid og positiv person som alltid søker ny lærdom og utfordringer. Har som regel et hobbyprosjekt på gang.\"\n},\n\n\t{\n  \"employeeID\": 19,\n  \"firstName\": \"Lars\",\n  \"lastName\": \"Eidnes\",\n  \"birthday\": \"1968-07-27T00:00:00\",\n  \"startDate\": \"2009-01-03T00:00:00\",\n  \"description\": \"Ihuga teknologientusiast. Er ellers glad i å stå på brett om vinteren, om det er i et skianlegg eller på vei ned fra en topptur. Liker å lage ting, og har typisk opptil flere hobbyprosjekter på gang til en hver tid.  \"\n},\n\n{\n  \"employeeID\": 19,\n  \"firstName\": \"Gøran\",\n  \"lastName\": \"Henriksen\",\n  \"birthday\": \"1968-07-27T00:00:00\",\n  \"startDate\": \"2009-01-03T00:00:00\",\n  \"description\": \"Gift, opprinnelig fra Bodø, men har bodd i Trondheim de siste 18 årene.  Driver med skateboard og snowboard. Er aktiv og sosial.  Liker å dra på konserter og festivaler. Leser mye, alt fra historie, fantasy og sci fi til de store klassikerne. Trives godt foran skjermen med spill eller å leke meg et eller annet sideprosjekt.\"\n},\n\n{\n  \"employeeID\": 20,\n  \"firstName\": \"Vegard\",\n  \"lastName\": \"Løkken\",\n  \"birthday\": \"1968-07-27T00:00:00\",\n  \"startDate\": \"2009-01-03T00:00:00\",\n  \"description\": \"Er gift og har 2 barn. Fikk tidlig interesse for datamaskiner og har alltid likt å utforske og lære. Det som startet med nettverk og servere gikk over til programvare og systemutvikling. Liker å trene, gå på jakt, kjøre motorsykkel og spille gitar. Er en blid og omgjengelig person med en allsidig bakgrunn som stadig er på jakt etter å lære mer og bli enda bedre i faget.\"\n},\n{\n  \"employeeID\": 21,\n  \"firstName\": \"Øystein\",\n  \"lastName\": \"Steimler\",\n  \"birthday\": \"1968-07-27T00:00:00\",\n  \"startDate\": \"2009-01-03T00:00:00\",\n  \"description\": \"Gift, 2 barn. Interesser: Datamaskiner, elektronikk, musikk og friluft. Drifter web- og dataløsninger for mange. Er profesjonelt paranoid og morer seg med kryptografi på internett. Sender epost med PGP-signatur. Har hatt IPv6 hjemme siden 2010, liker å leke med Arduino og servoer. Sporer fly med egen antenne på taket og har retrogaming i stuen. Lydtekniker og bålbrenner.\"\n},\n{\n  \"employeeID\": 22,\n  \"firstName\": \"Trond\",\n  \"lastName\": \"Bordewich\",\n  \"birthday\": \"1968-07-27T00:00:00\",\n  \"startDate\": \"2009-01-03T00:00:00\",\n  \"description\": \"36 år gammel, bosatt i Trondheim med familien som består av kone og to døtre. På fritiden prioriteres familien, med det blir også tid til trening innimellom. Klatring/buldring, løping, sykling, skiturer og fjellturer. Han har vært pådriver for løpegrupper. Trond er leder for CocoaHeads Trondheim, hvor han setter opp foredrag, hackfests eller andre aktiviteter. Han har holdt flere foredrag i regi av CocoaHeads, og et foredrag om funksjonell programmering på TDC2015.\"\n},\n{\n  \"employeeID\": 23,\n  \"firstName\": \"John\",\n  \"lastName\": \"Fossum\",\n  \"birthday\": \"1968-07-27T00:00:00\",\n  \"startDate\": \"2009-01-03T00:00:00\",\n  \"description\": \"Samboer og to barn. Liker å være aktiv med triatlon, skikjøring og toppturer (telemark), langrenn, klatring, fjellturer og sosiale aktiviteter. Har som regel noen småprosjekter på gang.\"\n},\n{\n  \"employeeID\": 24,\n  \"firstName\": \"Torleif\",\n  \"lastName\": \"Sandnes\",\n  \"birthday\": \"1968-07-27T00:00:00\",\n  \"startDate\": \"2009-01-03T00:00:00\",\n  \"description\": \"Familiemann med tre barn og for mange fritidsinteresser. Etter leggetid går tiden med til løping, ski og yoga, utforskende programmering og lesing. Interessert i åpen programvare, kodekvalitet, litteratur, tv-serier, science fiction og musikk. \"\n},\n{\n  \"employeeID\": 25,\n  \"firstName\": \"Erik\",\n  \"lastName\": \"Svaleng\",\n  \"birthday\": \"1968-07-27T00:00:00\",\n  \"startDate\": \"2009-01-03T00:00:00\",\n  \"description\": \"Erik er en allsidig, omgjengelig og sosialt trygg kar fra Bodø. Han har samboer fra Steinkjer, og sammen har de tre barn. De har vært bosatt i Trondheim siden 2008. Erik drev med SW-utvikling på si i hele studietiden. Han hadde deltidsjobber både hos SINTEF Energi og Siemens mens han studerte. I tillegg har han allsidig arbeidserfaring fra diverse småjobber, bl.a. fra flyttebyrå, som vekter, butikkmedarbeider og tømrer. Erik har god kjennskap til flere programmeringsspråk og programmer, både gjennom studier yrkeserfaring og egne interesser. \"\n},\n{\n  \"employeeID\": 26,\n  \"firstName\": \"Andreas\",\n  \"lastName\": \"Langberg\",\n  \"birthday\": \"1968-07-27T00:00:00\",\n  \"startDate\": \"2009-01-03T00:00:00\",\n  \"description\": \"Andreas er en sosial ung mann fra Støren med interesser innen data, spillutvikling, IT sikkerhet, buldring, kokkelering, drone racing, og 3D modellering. Han studerte først elektro, men byttet etter noen år over til IT fordi han hadde større interesse for systemutvikling. Som student var han leder for studentutvalg, studentmedlem i avdelingsstyret og i avdelingens tilsetningsutvalg ved AFT, HiST. Andreas brenner for kompetansedeling, han er lærevillig og lærer gjerne bort.  \"\n},\n{\n  \"employeeID\": 27,\n  \"firstName\": \"Dan-Lewi\",\n  \"lastName\": \"Harkestad\",\n  \"birthday\": \"1968-07-27T00:00:00\",\n  \"startDate\": \"2009-01-03T00:00:00\",\n  \"description\": \"Dan Lewi er gift og har 4 barn. Når barna er lagt er han ofte å finne foran en skjerm. Der redder han galaksen eller utforsker ny teknologi, noe han har holdt på med siden han fikk sin første datamaskin tidlig på 80-tallet. Han leser mye, både faglitteratur og science fiction, synger og spiller gitar og trener Taekwon-Do.\"\n},\n{\n  \"employeeID\": 28,\n  \"firstName\": \"Erling\",\n  \"lastName\": \"Neset\",\n  \"birthday\": \"1968-07-27T00:00:00\",\n  \"startDate\": \"2009-01-03T00:00:00\",\n  \"description\": \"Erling er en ung og dyktig fullstack-utvikler. Han er en utadvendt og sosial kar, og under utdanningen var han både leder og nestleder i linjeforeningen TIHLDE. Hos en tidligere arbeidsgiver satt han i sosialkomiteen. Av interesser kan nevnes randonee, windsurfing, friluftsliv, data, 3Dprinting, Arduino og hobbymekanikk.\"\n}\n\t\n]\n"
+			},
+			"created": 1537217545421,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_766d8971741d4eb5ae4595b44dcfc2f3",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1537217545421,
+			"method": "POST",
+			"modified": 1545916558057,
+			"name": "Create Employees",
+			"parameters": [],
+			"parentId": "wrk_777a832a14af480e99f4140ecd94ee54",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/api/Employees",
+			"_type": "request"
+		},
+		{
+			"_id": "req_77b7f0be4e3849ad8ad138b52fe7993c",
+			"authentication": {},
+			"body": {},
+			"created": 1537296887424,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1537296887424,
+			"method": "GET",
+			"modified": 1545572096448,
+			"name": "Get Employees",
+			"parameters": [],
+			"parentId": "wrk_777a832a14af480e99f4140ecd94ee54",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/api/Employees",
+			"_type": "request"
+		},
+		{
+			"_id": "req_cefb4ffab5ef46d4bea3bc8e240ee56d",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "[\n{\n  \"assignmentID\": 1,\n  \"employeeID\": 1,\n  \"company\": \"Equinor\",\n  \"dateStarted\": \"2018-09-16T05:30:00\",\n  \"typeID\": 0\n},\n{\n  \"assignmentID\": 2,\n  \"employeeID\": 2,\n  \"company\": \"Equinor\",\n  \"dateStarted\": \"2018-09-16T05:30:00\",\n  \"typeID\": 0\n},\n{\n  \"assignmentID\": 3,\n  \"employeeID\": 3,\n  \"company\": \"Equinor\",\n  \"dateStarted\": \"2018-09-16T05:30:00\",\n  \"typeID\": 0\n},\n{\n  \"assignmentID\": 4,\n  \"employeeID\": 4,\n  \"company\": \"Kantega\",\n  \"dateStarted\": \"2018-09-16T05:30:00\",\n  \"typeID\": 0\n},\n\t{\n  \"assignmentID\": 5,\n  \"employeeID\": 5,\n  \"company\": \"Evry\",\n  \"dateStarted\": \"2018-09-16T05:30:00\",\n  \"typeID\": 0\n},\n\t{\n  \"assignmentID\": 7,\n  \"employeeID\": 7,\n  \"company\": \"Evry\",\n  \"dateStarted\": \"2018-09-16T05:30:00\",\n  \"typeID\": 0\n},\n\t{\n  \"assignmentID\": 8,\n  \"employeeID\": 8,\n  \"company\": \"Evry\",\n  \"dateStarted\": \"2018-09-16T05:30:00\",\n  \"typeID\": 0\n},\n\t{\n  \"assignmentID\": 9,\n  \"employeeID\": 9,\n  \"company\": \"Evry\",\n  \"dateStarted\": \"2018-09-16T05:30:00\",\n  \"typeID\": 0\n},\n\t{\n  \"assignmentID\": 10,\n  \"employeeID\": 10,\n  \"company\": \"Evry\",\n  \"dateStarted\": \"2018-09-16T05:30:00\",\n  \"typeID\": 0\n},\n\t{\n  \"assignmentID\": 11,\n  \"employeeID\": 11,\n  \"company\": \"Evry\",\n  \"dateStarted\": \"2018-09-16T05:30:00\",\n  \"typeID\": 0\n},\n\t{\n  \"assignmentID\": 12,\n  \"employeeID\": 12,\n  \"company\": \"Evry\",\n  \"dateStarted\": \"2018-09-16T05:30:00\",\n  \"typeID\": 0\n},\n\t{\n  \"assignmentID\": 13,\n  \"employeeID\": 13,\n  \"company\": \"Evry\",\n  \"dateStarted\": \"2018-09-16T05:30:00\",\n  \"typeID\": 0\n},\n\t{\n  \"assignmentID\": 14,\n  \"employeeID\": 14,\n  \"company\": \"Evry\",\n  \"dateStarted\": \"2018-09-16T05:30:00\",\n  \"typeID\": 0\n},\n\t{\n  \"assignmentID\": 15,\n  \"employeeID\": 15,\n  \"company\": \"Evry\",\n  \"dateStarted\": \"2018-09-16T05:30:00\",\n  \"typeID\": 0\n},\n\t{\n  \"assignmentID\": 16,\n  \"employeeID\": 16,\n  \"company\": \"Evry\",\n  \"dateStarted\": \"2018-09-16T05:30:00\",\n  \"typeID\": 0\n},\n\t{\n  \"assignmentID\": 17,\n  \"employeeID\": 17,\n  \"company\": \"Evry\",\n  \"dateStarted\": \"2018-09-16T05:30:00\",\n  \"typeID\": 0\n},\n\t{\n  \"assignmentID\": 18,\n  \"employeeID\": 18,\n  \"company\": \"Evry\",\n  \"dateStarted\": \"2018-09-16T05:30:00\",\n  \"typeID\": 0\n},\n\t{\n  \"assignmentID\": 19,\n  \"employeeID\": 19,\n  \"company\": \"Evry\",\n  \"dateStarted\": \"2018-09-16T05:30:00\",\n  \"typeID\": 0\n},\n\t{\n  \"assignmentID\": 20,\n  \"employeeID\": 20,\n  \"company\": \"Evry\",\n  \"dateStarted\": \"2018-09-16T05:30:00\",\n  \"typeID\": 0\n},\n\t{\n  \"assignmentID\": 21,\n  \"employeeID\": 21,\n  \"company\": \"Evry\",\n  \"dateStarted\": \"2018-09-16T05:30:00\",\n  \"typeID\": 0\n},\n\t{\n  \"assignmentID\": 22,\n  \"employeeID\": 22,\n  \"company\": \"Evry\",\n  \"dateStarted\": \"2018-09-16T05:30:00\",\n  \"typeID\": 0\n},\n\t{\n  \"assignmentID\": 23,\n  \"employeeID\": 23,\n  \"company\": \"Evry\",\n  \"dateStarted\": \"2018-09-16T05:30:00\",\n  \"typeID\": 0\n},\n\t{\n  \"assignmentID\": 24,\n  \"employeeID\": 14,\n  \"company\": \"Evry\",\n  \"dateStarted\": \"2018-09-16T05:30:00\",\n  \"typeID\": 0\n},\n\t{\n  \"assignmentID\": 25,\n  \"employeeID\": 15,\n  \"company\": \"Evry\",\n  \"dateStarted\": \"2018-09-16T05:30:00\",\n  \"typeID\": 0\n},\n\t{\n  \"assignmentID\": 26,\n  \"employeeID\": 26,\n  \"company\": \"Evry\",\n  \"dateStarted\": \"2018-09-16T05:30:00\",\n  \"typeID\": 0\n},\n\t{\n  \"assignmentID\": 27,\n  \"employeeID\": 27,\n  \"company\": \"Evry\",\n  \"dateStarted\": \"2018-09-16T05:30:00\",\n  \"typeID\": 0\n},\n\t{\n  \"assignmentID\": 28,\n  \"employeeID\": 28,\n  \"company\": \"Evry\",\n  \"dateStarted\": \"2018-09-16T05:30:00\",\n  \"typeID\": 0\n},\n\t{\n  \"assignmentID\": 29,\n  \"employeeID\": 29,\n  \"company\": \"Evry\",\n  \"dateStarted\": \"2018-09-16T05:30:00\",\n  \"typeID\": 0\n}\t\n]"
+			},
+			"created": 1537378759791,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_972fa6f46882452c995ec0fbd184430d",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1537378759791,
+			"method": "POST",
+			"modified": 1545916536549,
+			"name": "Insert Assignments",
+			"parameters": [],
+			"parentId": "wrk_777a832a14af480e99f4140ecd94ee54",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/api/Assignments",
+			"_type": "request"
+		},
+		{
+			"_id": "req_bc08085bcda248a8a92efd1ebc71f951",
+			"authentication": {},
+			"body": {},
+			"created": 1537380822248,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1537380822248,
+			"method": "GET",
+			"modified": 1543954487902,
+			"name": "Get Comments",
+			"parameters": [],
+			"parentId": "wrk_777a832a14af480e99f4140ecd94ee54",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/api/Comments",
+			"_type": "request"
+		},
+		{
+			"_id": "req_706a564ecae0453996ae44466a475b2b",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "[\n{\n  \"commentID\": 7,\n  \"employeeID\": 2,\n  \"comment\": \"Holy mother!\",\n  \"dateAdded\": \"2018-09-16T05:30:00\",\n  \"typeID\": 0\n}\t\n]"
+			},
+			"created": 1537621092476,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_972fa6f46882452c995ec0fbd184430d",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1537337823607.5,
+			"method": "POST",
+			"modified": 1543951331161,
+			"name": "Insert New Single Comment",
+			"parameters": [],
+			"parentId": "wrk_777a832a14af480e99f4140ecd94ee54",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/api/Comments",
+			"_type": "request"
+		}
+	]
+}
