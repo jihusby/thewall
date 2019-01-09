@@ -16,6 +16,7 @@ export class EmployeesComponent implements OnInit {
 
   employees: Employee[];
 
+  selected: boolean;
   selectedEmployee: Employee;
   selectedAssignments: Assignment[];
   commentsQueue: Assignment[];
@@ -97,6 +98,8 @@ export class EmployeesComponent implements OnInit {
 
   changeEmployee() {
     this.intervalCounter = setInterval(() => {
+      this.employeeIndex++;
+      if(this.employeeIndex == this.employees.length) this.employeeIndex = 0;
       this.selectedEmployee = this.employees[this.employeeIndex];
       var sel = this.employeeService.getAssignments(this.selectedEmployee.employeeID);
       if(sel.length > 0) {
@@ -105,12 +108,26 @@ export class EmployeesComponent implements OnInit {
         this.selectedAssignment = null;
       }
       
-      this.employeeIndex++;
-      if(this.employeeIndex == this.employees.length) this.employeeIndex = 0;
-      }, 15000);
+      this.resetAnimation('dot');
+      this.resetAnimation('employee-big-image');
+
+      //this.employeeService.enterWave(this.employees[this.employeeIndex]);
+      //this.employeeService.exitWave(this.employees[this.employeeIndex]);
+    
+      }, 10000);
       
+      
+
       this.index = this.index + 1;
   }
+
+  resetAnimation(animation) {
+    console.log("Reset animation");
+    var el = document.getElementById(animation);
+    el.style.animation = 'none';
+    el.offsetHeight; /* trigger reflow */
+    el.style.animation = null; 
+  } 
 
   ngOnDestroy() {
     this.employeesUpdated.unsubscribe();

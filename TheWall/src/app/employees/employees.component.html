@@ -7,31 +7,21 @@
             Wall Of Fame
         </div>
         <!-- Main Content -->
-        <div class="align-center text-center" style="width: 100%; margin: 0 auto">
-            
+        
+        <div class="grid-container">    
             <!-- Photo Grid -->
-            <div 
-                class="row text-center left" 
-                [style.width]="containerWidthLeft" 
-                [style.margin-left]="marginTxt">
-                
-                <app-employee 
-                    [employee]="employee"
-                    [width]="imgWidth"
-                    [height]="divHeight"
-                    [style.margin]="marginTxt"
-                    [wave]=""
-                    *ngFor="let employee of employees">
-                </app-employee>
-
-            </div>
+            <app-employee 
+                [employee]="employee"
+                [width]="imgWidth"
+                [height]="divHeight"
+                [style.margin]="marginTxt"
+                [selected]="selectedEmployee.id == employee.id"
+                *ngFor="let employee of employees">
+            </app-employee>
 
             <!-- Employee Detail -->
-            <div class="right"
-            [style.width]="containerWidthRight"
-            [style.margin-top]="marginTxt"
-            [style.margin-right]="marginTxt">
-                <app-employee-detail [employee]="selectedEmployee" [selectedAssignment]="selectedAssignment" [height]="height"></app-employee-detail>
+            <div class="detail">
+                <app-employee-detail [employee]="selectedEmployee" [selectedAssignment]="selectedAssignment"></app-employee-detail>
             </div>
         </div>
 

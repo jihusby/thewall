@@ -11,7 +11,6 @@ export class EmployeeDetailComponent implements OnInit {
 
   @Input() employee: Employee;
   @Input() selectedAssignment: Assignment;
-  @Input() height: string;
   
   constructor() { 
   }

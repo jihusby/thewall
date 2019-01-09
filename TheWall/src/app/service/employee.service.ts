@@ -9,7 +9,7 @@ import { isNgTemplate } from '@angular/compiler';
 import { API } from '../io/api.model';
 
 import 'rxjs/Rx';
-import { Subject } from 'rxjs/Subject';
+import { Subject } from "../../../node_modules/rxjs";
 
 @Injectable({
   providedIn: 'root'
@@ -29,6 +29,16 @@ export class EmployeeService {
     this.populateAssignmentListFromAPI(this.api);
   }
 
+  public enterWave(employee: Employee) {
+    this.employees[this.employees.indexOf(employee, 0)].wave = true;
+    this.employeeListUpdated.next(this.employees);
+  }
+
+  public exitWave(employee: Employee) {
+      this.employees[this.employees.indexOf(employee, 0)].wave = false;
+      this.employeeListUpdated.next(this.employees);
+  }
+  
   public updateAssignments() {
     this.populateAssignmentListFromAPI(this.api);
   }

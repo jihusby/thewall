@@ -1,16 +1,16 @@
-<div class="detail"
-    [style.background-image]="'url(\'../assets/images/Helfigur/' + employee.firstName.replace(' ', '') + '.jpg\')'">
-    <div class="inner-component">
-            <div class="dot-container"><div class="dot">&nbsp;</div></div>
-        <div class="employee-name">
-            <div class="inner-name-component">{{employee.firstName}} {{employee.lastName}}</div>
+<div class="employee">
+    <div class="dot-container">
+        <div class="dot" id="dot">
+            &nbsp;
+        </div>
     </div>
-    </div>
-    <div class="inner-description-component">
-        {{ employee.description }}
-    </div>
-    <div class="inner-project-component">
-        <div *ngIf="selectedAssignment != null">I oppdrag for {{ selectedAssignment.company }}</div>
-    </div>
-
+    <div class="left-line">&nbsp;</div>
+    <div class="employee-name">{{employee.firstName}} {{employee.lastName}}</div>
+    <div class="employee-big-image" id="employee-big-image" 
+    [style.background-image]="'url(\'../assets/images/Helfigur/' + employee.firstName.replace(' ', '') + '.jpg\')'"
+    [style.background-size]="contain"
+    [style.background-align]="top">&nbsp;</div>
+    <div class="employee-assignment" *ngIf="selectedAssignment != null">I oppdrag for {{ selectedAssignment.company }}</div>
+    <div class="employee-description">{{ employee.description }}</div>
 </div>
+

@@ -9,20 +9,27 @@ html, body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin-left: 30px;
-    
     color: #ED7118;
     font-size: 60px;
 }
 
-.left {
-    float: left;
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto 19em;
+    grid-gap: 10px;
+    padding: 10px;
 }
 
-.right {
-    color: gray;
-    float: right;
-    position: absolute;
-    margin-left: 1060px;
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+}
 
-    padding: 0px 0px 0px 0px;
+.detail {
+    position: relative;
+    background-color: lightgreen;
+    width: 100%;
+    height: 80%;
+    /*-webkit-animation: move 0.5s linear forwards;
+    animation: move 0.5s linear forwards;*/
+    grid-area: 1 / 9 / 9 / 9;
 }

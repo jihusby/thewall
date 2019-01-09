@@ -11,7 +11,7 @@ export class EmployeeComponent implements OnInit {
   @Input() employee: Employee;
   @Input() width: string;
   @Input() height: string; 
-  @Input() wave: boolean;
+  @Input() selected: boolean;
 
   imageSrc = 'url:("../assets/images/';
   birthday: boolean = false;

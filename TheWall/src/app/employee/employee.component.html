@@ -1,26 +1,7 @@
 
- <div [style.width]="width" 
-      [style.height]="height" 
-      [style.background-image]="'url(./assets/images/' + employee.firstName.replace(' ', '') + '.jpg)'" 
-      class="employee-component">
-      <div 
-        class="inner-component">
+ <div class="employee-component">
+    <div class="employee-small-image" [style.background-image]="'url(./assets/images/CV-bilder/' + employee.firstName.replace(' ', '') + '_472x472.jpg)'"></div>
+    <div [ngClass]="selected ? 'color employee-name' : 'blackwhite employee-name'">
         {{employee.firstName}}
-      </div>
-      
-<!-- Birthday overlay -->
-      <div 
-        class="birthday"
-        [ngClass]="{ hidden: !birthday }" 
-        [style.height]="height">
-        <b>Gratulerer med dagen!</b>
-      </div>
-
-<!-- Image 2 overlay -->
-      <div 
-        [ngClass]="wave ? 'visible' : 'invisible'" 
-        [style.width]="width" 
-        [style.height]="height"
-        [style.background-image]="'url(./assets/images/pc.jpg)'" >
-      </div>
+    </div>
  </div>
